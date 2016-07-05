@@ -90,7 +90,7 @@ void child_proc(pid_t pid){
 	srand(time(NULL));
 	
 	while(keepalive){
-		/*I'm gonna sleep a rand numb of nanosecs from 0 to 5*/
+		/*I'm gonna sleep a rand numb of secs from 0 to 5*/
 		wait_time = rand()%6;
 
 		sleep(wait_time);
