@@ -2,7 +2,7 @@
 This program performs the following actions:
 	- father process forks and starts printing on stdout the content of a file
 	- child waits for a randomic time [0-5 secs] then sends SIGUSR1 to the father
-	- this causes the father stdout alternatively redirected to a file and restored
+	- this causes the father stdout to be alternatively redirected to a file and restored
 	- after 15 secs the childs sends a SIGUSR2 and both processes terminate
 */
 
