@@ -25,6 +25,7 @@ int redirected = 0;
 int savedstdout, fd;
 
 void redirect_stdout(){
+	savedstdout = dup(1);
 	close(1);
 	dup(fd);
 	//dup2(fd, 1);
@@ -133,7 +134,7 @@ int main(int argc, char* argv[]){
 	signal(SIGUSR2, signal_handler);
 
 	fd = creat("out.txt", 0666);
-	savedstdout = dup(1);
+	
 	while(keepalive){
 		/*rewind inserted to see "something meaningful" when reaching EOF*/
 		if (fgets(readline, MAXBUFL+1, fp) == NULL)
