@@ -1,5 +1,5 @@
 /*multithread program working with shared queues and condition variables. 
- *Assignment text in the README.me*/
+ *Assignment text in the wiki*/
 
 #include <stdio.h>
 #include <stdlib.h>
