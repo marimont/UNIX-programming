@@ -1,3 +1,6 @@
+/*multithread program working with shared queues and condition variables. 
+ *Assignment text in the README.me*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
