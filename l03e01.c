@@ -1,4 +1,8 @@
 /*multithread program working with shared queues and condition variables. 
+ * Cond struct, which stores a lock, a condition variable and some counters,
+ * is used to manage the normal queue and the urgent queue in a way that
+ * each thread is informed when a new request is inserted wether on the normal queue
+ * or on the urgent queue, by waiting on a single condition variable.
  *Assignment text in the wiki*/
 
 #include <stdio.h>
