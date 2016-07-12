@@ -1,0 +1,6 @@
+aaabbbccdee000f	White	John	M	08:30	3	4
+aaabbbccdee001f	Red		Mary	F	08:30	2	3
+aaabbbccdee002f	Blue	Gary 	M	08:30	2	6
+aaabbbccdee003f	Black	Jack	M	08:30	1 	8
+aaabbbccdee004f	Grey	Mary	F	08:30	3	4
+aaabbbccdee005f	Smith	John	M	08:30	5	6

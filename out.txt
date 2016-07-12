@@ -1,0 +1,6 @@
+aaabbbccdee001f VotingStation0 8.35
+aaabbbccdee000f VotingStation1 8.37
+aaabbbccdee002f VotingStation2 8.41
+aaabbbccdee004f VotingStation0 8.39
+aaabbbccdee003f VotingStation3 8.44
+aaabbbccdee005f VotingStation1 8.47
